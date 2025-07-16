@@ -1,10 +1,10 @@
-let numero = 0
+let numero = 0 
 function add() {
-    numero++
+    numero++ 
     render()
 }
 function res() {
-    numero = 0
+    numero = 0 
     render()
 }
 function dim() {
@@ -12,16 +12,12 @@ function dim() {
     render()
 }
 function render() {
-    document.querySelector("p").innerText = numero
-    if (numero > 0) {
+    document.querySelector ("p").innerText = numero
+    if (numero >0) {
         document.querySelector("p").style.color = "gray"
-    }
-    else if (numero < 0) {
+    } else if (numero <0) {
         document.querySelector("p").style.color = "red"
-
-    }    else {
-    document.querySelector("p").style.color = "white"
+    } else {
+        document.querySelector("p").style.color = "white"
+    }
 }
-     
-}
-   
